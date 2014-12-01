@@ -1,0 +1,18 @@
+C:/RailsInstaller/Ruby2.1.0/bin/ruby.exe extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+generating hitimes-i386-mingw32.def
+compiling hitimes.c
+compiling hitimes_instant_clock_gettime.c
+compiling hitimes_instant_osx.c
+compiling hitimes_instant_windows.c
+compiling hitimes_interval.c
+compiling hitimes_stats.c
+linking shared-object hitimes/2.1/hitimes.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 hitimes.so ./.gem.20141130-5104-hgjgos/hitimes/2.1
+installing default hitimes libraries

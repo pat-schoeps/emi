@@ -1,0 +1,273 @@
+C:/RailsInstaller/Ruby2.1.0/bin/ruby.exe extconf.rb 
+checking for xmlNewDoc() in -lxml2... no
+checking for gumbo_parse() in -lgumbo... no
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+generating nokogumboc-i386-mingw32.def
+compiling attribute.c
+attribute.c: In function 'gumbo_get_attribute':
+attribute.c:30:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+compiling char_ref.c
+char_ref.rl: In function 'consume_numeric_ref':
+char_ref.rl:148:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+char_ref.rl:156:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+char_ref.rl:165:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+char_ref.rl:181:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+char_ref.rl: In function 'consume_named_ref':
+char_ref.rl:2472:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+char_ref.rl:2489:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+char_ref.rl:2506:7: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+char_ref.rl:2513:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+char_ref.rl: In function 'consume_char_ref':
+char_ref.rl:2525:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling error.c
+error.c: In function 'print_message':
+error.c:39:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+error.c: In function 'print_tag_stack':
+error.c:79:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+error.c:83:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+error.c: In function 'find_last_newline':
+error.c:139:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+error.c: In function 'gumbo_add_error':
+error.c:159:57: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+error.c:162:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+error.c: In function 'gumbo_caret_diagnostic_to_string':
+error.c:231:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+error.c:244:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+error.c: In function 'gumbo_destroy_errors':
+error.c:275:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+compiling nokogumbo.c
+nokogumbo.c: In function 'walk_tree':
+nokogumbo.c:98:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+nokogumbo.c:106:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+nokogumbo.c:107:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+nokogumbo.c:113:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+nokogumbo.c:114:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+nokogumbo.c: In function 'parse':
+nokogumbo.c:151:3: warning: passing argument 1 of 'xmlNewDoc' discards 'const' qualifier from pointer target type [enabled by default]
+nokogumbo.c:78:14: note: expected 'char *' but argument is of type 'const char *'
+nokogumbo.c:157:5: warning: null argument where non-null required (argument 1) [-Wnonnull]
+nokogumbo.c:157:5: warning: null argument where non-null required (argument 1) [-Wnonnull]
+nokogumbo.c: In function 'Init_nokogumboc':
+nokogumbo.c:172:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+nokogumbo.c:178:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+nokogumbo.c:194:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling parser.c
+parser.c: In function 'all_attributes_match':
+parser.c:428:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c: In function 'new_document_node':
+parser.c:461:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'parser_add_parse_error':
+parser.c:602:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:609:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:617:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:621:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c: In function 'tag_in':
+parser.c:650:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:652:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'node_tag_in':
+parser.c:681:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:685:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'append_node':
+parser.c:727:3: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c:728:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'insert_node':
+parser.c:746:3: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c:748:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:750:3: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c:755:29: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c: In function 'foster_parent_element':
+parser.c:768:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'maybe_flush_text_node_buffer':
+parser.c:810:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'pop_current_node':
+parser.c:854:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:860:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'append_comment_node':
+parser.c:877:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'create_element_from_token':
+parser.c:930:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'insert_foreign_element':
+parser.c:1017:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'insert_text_token':
+parser.c:1039:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'count_formatting_elements_of_tag':
+parser.c:1100:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'add_formatting_element':
+parser.c:1116:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1124:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'is_open_element':
+parser.c:1140:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c: In function 'clone_node':
+parser.c:1154:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1162:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1165:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1167:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c: In function 'reconstruct_active_formatting_elements':
+parser.c:1191:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1214:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c:1217:5: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c:1220:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'has_an_element_in_specific_scope':
+parser.c:1288:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1297:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1303:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1304:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c:1312:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1313:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c: In function 'has_an_element_in_scope_with_tagname':
+parser.c:1388:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1394:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'close_table':
+parser.c:1465:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'close_table_cell':
+parser.c:1479:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'merge_attributes':
+parser.c:1616:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1619:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c: In function 'gumbo_normalize_svg_tagname':
+parser.c:1644:10: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c: In function 'adjust_foreign_attributes':
+parser.c:1658:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1660:10: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c: In function 'adjust_svg_attributes':
+parser.c:1678:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1680:10: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c: In function 'adjust_mathml_attributes':
+parser.c:1696:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'remove_from_parent':
+parser.c:1746:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1753:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c: In function 'adoption_agency_algorithm':
+parser.c:1816:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1818:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c:1820:7: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1844:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1852:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1855:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1872:7: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c:1885:7: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1893:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c:1920:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1928:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1934:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c:1946:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1955:5: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c:1962:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:1965:5: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c: In function 'finish_parsing':
+parser.c:1992:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'handle_in_head_noscript':
+parser.c:2203:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'handle_after_head':
+parser.c:2246:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'destroy_node':
+parser.c:2269:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c:2279:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c:2283:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c: In function 'handle_in_body':
+parser.c:2352:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:2369:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:2370:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c:2383:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c:2401:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:2402:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c:2461:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:2467:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:2473:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:2528:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:2554:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:2572:7: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:2674:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:2719:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:2735:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:2753:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:2755:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c:2768:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:2812:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:2884:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'handle_in_table':
+parser.c:3041:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'handle_in_table_text':
+parser.c:3065:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c: In function 'handle_in_caption':
+parser.c:3098:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'handle_in_row':
+parser.c:3241:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+parser.c:3250:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'handle_after_body':
+parser.c:3458:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'handle_in_foreign_content':
+parser.c:3705:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:3707:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:3712:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:3717:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'handle_token':
+parser.c:3774:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'gumbo_parse_with_options':
+parser.c:3817:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:3822:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:3836:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c:3886:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+parser.c: In function 'gumbo_destroy_output':
+parser.c:3916:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+compiling string_buffer.c
+compiling string_piece.c
+string_piece.c: In function 'gumbo_string_copy':
+string_piece.c:46:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling tag.c
+tag.c: In function 'gumbo_tag_enum':
+tag.c:220:5: warning: implicit declaration of function '_stricmp' [-Wimplicit-function-declaration]
+compiling tokenizer.c
+tokenizer.c: In function 'tokenizer_add_parse_error':
+tokenizer.c:204:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+tokenizer.c: In function 'temporary_buffer_equals':
+tokenizer.c:376:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+tokenizer.c: In function 'emit_current_tag':
+tokenizer.c:543:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+tokenizer.c: In function 'abandon_current_tag':
+tokenizer.c:566:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+tokenizer.c: In function 'maybe_emit_from_temporary_buffer':
+tokenizer.c:631:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+tokenizer.c: In function 'add_duplicate_attr_error':
+tokenizer.c:760:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+tokenizer.c: In function 'finish_attribute_name':
+tokenizer.c:784:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+tokenizer.c:785:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+tokenizer.c:798:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+tokenizer.c: In function 'finish_attribute_value':
+tokenizer.c:823:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+tokenizer.c: In function 'gumbo_lex':
+tokenizer.c:2931:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+tokenizer.c:2933:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+tokenizer.c: In function 'gumbo_token_destroy':
+tokenizer.c:2964:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+compiling utf8.c
+utf8.c:82:1: warning: 'static' is not at beginning of declaration [-Wold-style-declaration]
+utf8.c:82:1: warning: 'inline' is not at beginning of declaration [-Wold-style-declaration]
+utf8.c: In function 'add_error':
+utf8.c:111:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+utf8.c: In function 'read_char':
+utf8.c:130:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+utf8.c:143:9: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+utf8.c: In function 'utf8iterator_maybe_consume_match':
+utf8.c:242:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+compiling util.c
+compiling vector.c
+vector.c: In function 'enlarge_vector_if_full':
+vector.c:54:7: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+vector.c: In function 'gumbo_vector_index_of':
+vector.c:85:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+vector.c: In function 'gumbo_vector_insert_at':
+vector.c:97:3: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+vector.c: In function 'gumbo_vector_remove_at':
+vector.c:117:3: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+vector.c:118:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+linking shared-object nokogumboc.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 nokogumboc.so ./.gem.20141130-5104-137ebu0
+installing default nokogumboc libraries
