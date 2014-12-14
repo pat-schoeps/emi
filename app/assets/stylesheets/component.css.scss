@@ -169,6 +169,7 @@ html, body, .container, .main {
 /* background image for slider */
 
 .container-instruments-background {
+	position: absolute;
 	width: 105%;
   margin-top: -2em;
   margin-left: -2em;
@@ -403,7 +404,7 @@ html, body, .container, .main {
 	overflow-x: hidden;
 	height: 40em;
 	width: 100%;
-	margin-top: 36.9em;
+	margin-top: 39em;
 	background-color: $gray-style;
 	padding: 1em;
 	
