@@ -12,6 +12,14 @@ $(document).ready(function() {
     function() {
         $(this).css('border-bottom', '.0em');
     });
+    
+    $('.cache').hover(function() {
+        $(this).fadeTo(250, 1);
+    },
+    function() {
+        $('.title').css('color', 'gray');
+    });
+    
 
 
 });

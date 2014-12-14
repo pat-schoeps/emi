@@ -399,10 +399,11 @@ html, body, .container, .main {
 /*Wilson Center */
 
 .instruments-wilson-center {
+	position: absolute;
 	overflow-x: hidden;
 	height: 40em;
 	width: 100%;
-	margin-top: 39em;
+	margin-top: 36.9em;
 	background-color: $gray-style;
 	padding: 1em;
 	

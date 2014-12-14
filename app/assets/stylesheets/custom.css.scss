@@ -19,6 +19,7 @@ $pink: #FC1068;
 $purple: #1F0441;
 $yellow: #F9CE07;
 $gray-style: #4A4A4A;
+$eggwhite: #FFFFE0;
 
 
 /* universal */
@@ -407,12 +408,23 @@ input label {
 
 .performance-image1 {
     min-width: 100%;
-    height: 50em;
+    height: 35em;
     overflow: hidden;
     background-repeat: none;
     background-attachment: fixed;
     background-image: image-url("performance/streetscape.jpg");
 }
+
+.performance-image2 {
+  min-width: 100%;
+    height: 35em;
+    overflow: hidden;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-image: image-url("performance/arches.jpg");
+}
+
+
 
 .performance-jumbotron {
     background-image: image-url("performance/sunset.jpg");
@@ -428,6 +440,108 @@ input label {
         overflow: hidden;
     }
 }
+
+.band-links {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 4.5em;
+  z-index: 20;
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .band-box{
+    position: relative;
+    background-color: $gray-style;
+    float: left;
+    width: 25%;
+    height:  100px;
+    cursor: pointer;
+    overflow: hidden;
+    opacity: .8;
+  }
+  
+  .cache {
+    position: absolute;
+    display: block;
+    opacity: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: #ec2028;
+    z-index: 30;
+    transition: opacity 200ms;
+    
+  }
+  
+  .cache:hover {
+    opacity: .8;
+  }
+  
+  .band-title {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    z-index: 40;
+    transition: background-color 200ms;
+    
+    p {
+      margin-top: 2em;
+      color: white;
+      font-size: 1.25em;
+    
+    }
+  }
+  
+  .band-title:hover {
+    background-color: #ec2028;
+  }
+
+  
+}  
+  .performance-altrock {
+    min-width: 100%;
+    height: 40em;
+    background-color: $eggwhite;
+    overflow: hidden;
+    
+    h1 {
+      letter-spacing: .15px;
+    }
+    
+  }
+  
+  .performance-group2 {
+    min-width: 100%;
+    height: 40em;
+    background-color: $eggwhite;
+    overflow: hidden;
+    
+    h1 {
+      letter-spacing: .15px;
+    }
+  }
+  
+  .performance-group3 {
+    min-width: 100%;
+    height: 40em;
+    background-color: $eggwhite;
+    overflow: hidden;
+    
+    h1 {
+      letter-spacing: .15px;
+    }
+  }
+  
+  
+  
+  
+
+  
+
 .performance-image2  {
     background-image: image-url("performance/field.jpg");
 }

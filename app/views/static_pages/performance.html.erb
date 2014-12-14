@@ -1,25 +1,113 @@
 <section class="performance-jumbotron">
+    <nav class="band-links">
+        <div class="band-box">
+          <a href="#" id="link1">
+              <span class="cache"></span>
+              <div class="band-title">
+                  <p class="title">
+                      Alternative Rock
+                  </p>
+              </div>
+          </a>
+        </div>
+        
+        <div class="band-box">
+          <a href="#" id="link2">
+              <span class="gradient"></span>
+              <div class="band-title">
+                  <p class="title">
+                      Classic Rock
+                  </p>
+              </div>
+          </a>
+        </div>
+        
+        <div class="band-box">
+          <a href="#" id="link3">
+              <span class="gradient"></span>
+              <div class="band-title">
+                  <p class="title">
+                      Philosophy
+                  </p>
+              </div>
+          </a>
+        </div>
+        
+        <div class="band-box">
+          <a href="#" id="link4">
+              <span class="gradient"></span>
+              <div class="band-title">
+                  <p class="title">
+                      Location
+                  </p>
+              </div>
+          </a>
+        </div>
+    </nav>
+    </div>
+</section>
+
+<a name="id1"></a>
+
+<section class="performance-altrock">
+    <div class="col-md-6">
+        <h1>Alternative Rock</h1>
+        <p>Description</p>
+    </div>
+</section>
+
+<section class="performance-image1">
+</section>
+
+<a name="id2"></a>
+<section class="performance-group2">
     <div class="row">
-        <div class="col-md-12">
-            ;lkjjkl
+        <div class="col-md-6">
+            <h1>Rock</h1>
+            <p>Description</p>
         </div>
     </div>
 </section>
 
 <section class="performance-image1">
+</section>
+
+<a name="id3"></a>
+<section class="performance-group3">
     <div class="row">
-        <div class="col-md-12">
-            
+        <div class="col-md-6">
+            <h1>Philosophy</h1>
+            <p>Description</p>
         </div>
     </div>
 </section>
 
-<section class="performance-group1">
-    <div class="row">
-        <div class="col-md-12">
-            
-        </div>
-    </div>
-</section>
 
 
+
+<script>
+			
+			function scrollToAnchor(aid){
+        var aTag = $("a[name='"+ aid +"']");
+        $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+              }
+
+        $("#link1").click(function() {
+         scrollToAnchor('id1');
+          });
+          
+          
+        $("#link2").click(function() {
+        	scrollToAnchor('id2');
+        });
+        
+        $("#link3").click(function() {
+        	scrollToAnchor('id3');
+        });
+        
+        $("#link4").click(function() {
+        	scrollToAnchor('id4');
+        });
+        
+          
+		</script>
