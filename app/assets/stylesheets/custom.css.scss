@@ -4,6 +4,17 @@
     .navbar-nav.pull-right { float: none!important; }
 } */
 
+@font-face {
+	font-family: 'jaapokki';
+	src:font-url('../fonts/jaapokki/jaapokki-regular.eot');
+	src:font-url('../fonts/jaapokki/jaapokki-regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/jaapokki/jaapokki-regular.svg#jaapokki') format('svg'),
+		url('../fonts/jaapokki/jaapokki-regular.woff') format('woff'),
+		url('../fonts/jaapokki/jaapokki-regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /* mixins, variables, etc. */
 
 @mixin box_sizing {
@@ -436,11 +447,21 @@ input label {
     background-repeat: none;
     overflow: hidden;
     
+    .subtitle {
+      margin-right: 29em;
+      margin-top: 5em;
+    }
+    
     .col-md-12 {
-        height: 40em;
         width: 102%;
-        margin-top: 3.3em;
         overflow: hidden;
+        
+        h1 {
+          font-size: 5.5em;
+          color: $eggwhite;
+          margin-right: 11em;
+          font-family: 'jaapokki', 'Arial';
+        }
     }
 }
 
