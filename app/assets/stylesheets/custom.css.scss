@@ -92,11 +92,11 @@ p {
   position: absolute;
   top: 40em;
   left: 64.2em;
-  z-index: 10000;
+  z-index: 1500;
 	width: 0;
 	height: 0;
 	border-top: 25px solid transparent;
-	border-left: 35px solid $eggwhite;
+	border-left: 38px solid $eggwhite;
 	border-bottom: 25px solid transparent;
 }
 
@@ -104,11 +104,11 @@ p {
   position: absolute;
   top: 59.15em;
   left: 29.7em;
-  z-index: 10000;
+  z-index: 1500;
 	width: 0;
 	height: 0;
 	border-top: 25px solid transparent;
-	border-right: 35px solid $eggwhite;
+	border-right: 38px solid $eggwhite;
 	border-bottom: 25px solid transparent;
 }
 	
@@ -121,7 +121,11 @@ header {
   width: 100%;
   background-color: $gray-style;
   opacity: .7;
-  
+  z-index: 1600;
+}
+
+.navbar-fixed-top {
+  z-index: 1600;
 }
 
 .navbar-nav {
