@@ -4,16 +4,6 @@
     .navbar-nav.pull-right { float: none!important; }
 } */
 
-@font-face {
-	font-family: 'jaapokki';
-	src:font-url('../fonts/jaapokki/jaapokki-regular.eot');
-	src:font-url('../fonts/jaapokki/jaapokki-regular.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/jaapokki/jaapokki-regular.svg#jaapokki') format('svg'),
-		url('../fonts/jaapokki/jaapokki-regular.woff') format('woff'),
-		url('../fonts/jaapokki/jaapokki-regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
 
 /* mixins, variables, etc. */
 
@@ -46,7 +36,7 @@ body {
 }
 
 ul {
-  /*list-style: none;*/
+  list-style: none;
 }
 
 
@@ -96,6 +86,32 @@ p {
   line-height: 1.7em;
 }
 
+/* shapes */
+
+#triangle-right {
+  position: absolute;
+  top: 40em;
+  left: 64.2em;
+  z-index: 10000;
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 35px solid $eggwhite;
+	border-bottom: 25px solid transparent;
+}
+
+#triangle-left {
+  position: absolute;
+  top: 59.15em;
+  left: 29.7em;
+  z-index: 10000;
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 35px solid $eggwhite;
+	border-bottom: 25px solid transparent;
+}
+	
 
 /* header */
 
@@ -170,6 +186,7 @@ footer {
 
 /* Jumbotron */
 #homepage {
+  height: 94.5em;
   width: 100%;
   padding: 0px;
  
@@ -232,71 +249,24 @@ footer {
       }
   }
 
-/*  original three topics
-
-#project-row {
-  margin: 6px;
-}
-
-.project-container {
-    height: 25em;
-    width: 85%;
-    margin: auto;
-    position: relative;
-    background-color: white;
-    h2 {
-      position: relative;
-      padding-top: 45%;
-      color:  white;
-      font-size: 3em;
-    }
-    a {
-      text-decoration: none;
-    }
-}
-
-
-/*  original three topics
-
-.container-pvc {
-  background-image: url(https://unsplash.imgix.net/22/brick-wall.JPG?q=75&fm=jpg&s=384c1f50be9eebb14ce9f91080556c66);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-
-.container-design {
-  background-image: url("http://www.horniman.ac.uk/media/w650h650/Ex_SoundDesigns__001-PS.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-size: cover;
-}
-
-.container-performance {
-  background-image: url("https://unsplash.imgix.net/17/unsplash_5252bb51404f8_1.JPG?q=75&fm=jpg&s=6059617524e078beda8a02f4d02fcb7a");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
 
 /* Contact page */
 
-.contact-row {
-  height: 35em;
-  background-image: asset_url('xmas.jpg');
-  border-bottom: 3px solid $gray;
+.image-header {
+  min-width: 100%;
+  margin-left: -1.1em;
 }
 
-.contact-column {
-  margin-top: 3em;
-  h1 h2{
-    margin-top: 1em;
-    font-size: 2em;
-  }
-  h1 {
-    color:white;
-    font-size: 4.25em;
-    padding: 1.5em;
+.contact-main {
+  height: 70em;
+  width: 60em;
+  margin-left: 20%;
+  
+  h2 {
+    font-size: 1.75em;
   }
 }
+
 
 .content-contact {
   ul {
@@ -448,8 +418,8 @@ input label {
     overflow: hidden;
     
     .subtitle {
-      margin-right: 29em;
-      margin-top: 5em;
+      margin-right: 29.5em;
+      margin-top: 4em;
     }
     
     .col-md-12 {
@@ -459,7 +429,7 @@ input label {
         h1 {
           font-size: 5.5em;
           color: $eggwhite;
-          margin-right: 11em;
+          margin-right: 12em;
           font-family: 'jaapokki', 'Arial';
         }
     }
@@ -524,7 +494,6 @@ input label {
     background-color: #ec2028;
   }
 
-  
 }  
   .performance-altrock {
     position: relative;
@@ -537,9 +506,124 @@ input label {
       letter-spacing: .15px;
     }
     
+    h2 {
+      color: $gray-style;
+      margin-top: 2em;
+     
+    }
+    
+    
+    #list-title {
+      font-size: 1.25em;
+      color: $gray-style;
+      margin-left: 2em;
+      margin-bottom: 1em;
+  
+}
+    
+    .song-list {
+      padding: .5em;
+      margin-top: 8em;
+      margin-left: 7em;
+    }
+    
+    .logistics {
+      position: absolute;
+      padding-bottom: .5em;
+      padding-top: .5em;
+      padding-left: 1em;
+      margin-left: 27.25em;
+      margin-top: -21.3em;
+      color: white;
+      background-color: $gray-style;
+      width: 20em;
+    }
+    
+    .members {
+      padding: .5em;
+      margin-top: -13.35em;
+      margin-left: 28em;
+    }
+    
+  .buttons {
+    margin-left: 25%;
   }
   
-  .performance-group2 {
+  #information {
+    margin-left: 40%;
+  }
+    
+  }
+  
+  
+  .performance-rock {
+    position: relative;
+    min-width: 100%;
+    height: 40em;
+    background-color: $eggwhite;
+    overflow: hidden;
+    
+    .performance-rock-col2 {
+      margin-top: 1.44em;
+    }
+    
+    h1 {
+      letter-spacing: .15px;
+    }
+    
+        h1 {
+      letter-spacing: .15px;
+    }
+    
+    h2 {
+      color: $gray-style;
+      margin-top: 2em;
+     
+    }
+    
+    
+    #list-title {
+      font-size: 1.25em;
+      color: $gray-style;
+      margin-left: 2em;
+      margin-bottom: 1em;
+  
+}
+    
+    .song-list {
+      padding: .5em;
+      margin-top: 8em;
+      margin-left: 7em;
+    }
+    
+    .logistics {
+      position: absolute;
+      padding-bottom: .5em;
+      padding-top: .5em;
+      padding-left: 1em;
+      margin-left: 27.25em;
+      margin-top: -21.3em;
+      color: white;
+      background-color: $gray-style;
+      width: 20em;
+    }
+    
+    .members {
+      padding: .5em;
+      margin-top: -11.75em;
+      margin-left: 28em;
+    }
+    
+  .buttons {
+    margin-left: 25%;
+  }
+  
+  #information {
+    margin-left: 40%;
+  }
+  }
+  
+  .performance-newgroups {
     position: relative;
     min-width: 100%;
     height: 40em;
@@ -549,28 +633,64 @@ input label {
     h1 {
       letter-spacing: .15px;
     }
-  }
-  
-  .performance-group3 {
-    position: relative;
-    min-width: 100%;
-    height: 40em;
-    background-color: $eggwhite;
-    overflow: hidden;
     
-    h1 {
-      letter-spacing: .15px;
+    h2 {
+      color: $gray-style;
+      margin-top: 25%;
+    }
+    
+    .buttons {
+      margin-left: 25%;
+    }
+    
+    #information {
+      margin-left: 40%;
     }
   }
-  
-  
-  
-  
-
-  
 
 .performance-image2  {
     background-image: image-url("performance/field.jpg");
 }
 
+  .performance-randalllab {
+    position: relative;
+    min-width: 100%;
+    height: 40em;
+    background-color: $gray-style;
+    overflow: hidden;
+    
+    h1 {
+      letter-spacing: .15px;
+      color: white;
+    }
+    
+    p {
+      color: white;
+    }
+    
+    iframe {
+      margin-top: 4em;
+    }
+  }
+  
+  /* About */
+  
+  .container-about {
+    margin-top: 3em;
+    height: 50em;
+    h2 {
+      color: $gray-style;
+      margin-right: 13.4em;
+    }
+    
+    .align {
+      width: 60em;
+      margin-top: 3em;
+      margin-left: 20%;
+      
+      .signature {
+        margin-top: 2em;
+      }
+    }
+  }
 

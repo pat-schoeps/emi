@@ -6,12 +6,9 @@ Rails.application.routes.draw do
   root             'static_pages#home'
   get 'instruments'    => 'static_pages#instruments'
   get 'performance'     => 'static_pages#performance'
-  get 'design'          => 'static_pages#design'
-  get 'process'         => 'static_pages#process'
   get 'about'           => 'static_pages#about'
   get 'contact'         => 'static_pages#contact'
   get 'signup'          => 'users#new'
-  get 'polymer'         => 'polymer#polymerhome'
   resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
