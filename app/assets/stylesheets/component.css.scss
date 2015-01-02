@@ -69,8 +69,7 @@ html, body, .container, .main {
 
 .instruments-top-banner {
 	height: 16.875em;
-  width: 105%;
-  margin-left: -1.05em;
+  width: 100%;
   background-color: white;
   opacity: .85;
   overflow-y: hidden;
@@ -89,8 +88,8 @@ html, body, .container, .main {
 
   position: relative;
   height: 16.875em;
-  width: 55%;
-  margin-left: 23em;
+  width: 50%;
+  margin-left: 24em;
   background-color: $gray-style;
   opacity: 1;
   overflow-y: hidden;
@@ -136,8 +135,7 @@ html, body, .container, .main {
 .instruments-bottom-left {
 	position: relative;
 	height: 16.875em;
-  width: 52.5%;
-  margin-left: -1.05em;
+  width: 50%;
   margin-top: -16.875em;
   background-color: $graydark;
   opacity: 1;
