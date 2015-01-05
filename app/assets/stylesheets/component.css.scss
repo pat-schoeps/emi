@@ -29,8 +29,11 @@ html, body, .container, .main {
 }
 
 .container-instruments {
-	max-width: 1500px;
 	min-height: 100%;
+}
+
+.instruments-column {
+	height: 37.5em;
 }
 
 /* Jumbotron */
@@ -39,14 +42,15 @@ html, body, .container, .main {
 	background-color: #C4C3EE;
 	height: 34em;
 	min-width: 100%;
-	margin-top: 3.6em;
 }
 
 .instruments-grid1 {
+	position: absolute;
 	background-image: asset_url("instruments/tools.jpg");
 	height: 34em;
 	border-bottom: 3px solid $gray;
-	width: 100%;
+	width: 50%;
+	margin-top: 3.6em;
 	padding-left: 0;
 	padding-right: 0;
 	opacity: .9;
@@ -62,14 +66,16 @@ html, body, .container, .main {
 }
 	
 .instruments-grid2 {
-	width: 100%;
+	position: absolute;
+	width: 50%;
 	background-image: image_url("instruments/compass.1.jpg");
 	height: 34em;
 	border-bottom: 3px solid $gray;
 	margin: 0;
-	top: 0;
-	right: .5em;
+	margin-top: 3.6em;
+	margin-left: 50%;
 	bottom: 0;
+	right: .5em;
 	padding-left: 0;
 	padding-right: 0;
 }
@@ -77,7 +83,6 @@ html, body, .container, .main {
 /*top banner*/
 
 .instruments-top-banner {
-	height: 16.875em;
   width: 100%;
   background-color: white;
   opacity: .85;
@@ -96,7 +101,6 @@ html, body, .container, .main {
 .instruments-bottom-right {
 
   position: absolute;
-  height: 16.875em;
   width: 50%;
   margin-left: 50%;
   background-color: $gray-style;
@@ -143,7 +147,6 @@ html, body, .container, .main {
 
 .instruments-bottom-left {
 	position: absolute;
-	height: 16.875em;
   width: 50%;
   background-color: $graydark;
   opacity: 1;
