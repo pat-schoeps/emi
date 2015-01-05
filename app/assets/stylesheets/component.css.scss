@@ -29,7 +29,7 @@ html, body, .container, .main {
 }
 
 .container-instruments {
-	width: 100%;
+	max-width: 1500px;
 	min-height: 100%;
 }
 
@@ -68,7 +68,7 @@ html, body, .container, .main {
 	border-bottom: 3px solid $gray;
 	margin: 0;
 	top: 0;
-	right: 0;
+	right: .5em;
 	bottom: 0;
 	padding-left: 0;
 	padding-right: 0;
