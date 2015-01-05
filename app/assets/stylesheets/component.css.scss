@@ -28,6 +28,11 @@ html, body, .container, .main {
 
 }
 
+.container-instruments {
+	width: 100%;
+	min-height: 100%;
+}
+
 /* Jumbotron */
 
 .instruments-row {
@@ -44,10 +49,14 @@ html, body, .container, .main {
 	width: 100%;
 	padding-left: 0;
 	padding-right: 0;
+	opacity: .9;
 	h1  {
 		margin-top: 3em;
 		color: white;
 		font-size: 4em;
+	}
+	.cache {
+		opacity: 1;
 	}
 	
 }
@@ -86,10 +95,10 @@ html, body, .container, .main {
 
 .instruments-bottom-right {
 
-  position: relative;
+  position: absolute;
   height: 16.875em;
   width: 50%;
-  margin-left: 24em;
+  margin-left: 50%;
   background-color: $gray-style;
   opacity: 1;
   overflow-y: hidden;
@@ -133,10 +142,9 @@ html, body, .container, .main {
 /*bottom left box*/
 
 .instruments-bottom-left {
-	position: relative;
+	position: absolute;
 	height: 16.875em;
   width: 50%;
-  margin-top: -16.875em;
   background-color: $graydark;
   opacity: 1;
   overflow-y: hidden;
@@ -180,7 +188,7 @@ html, body, .container, .main {
 .container-instruments-background {
 	background-image: image_url("instruments/train.jpg");
 	background-attachment: fixed;
-	position: absolute;
+	position: relative;
 	width: 105%;
   height: 47em;
   margin-left: -2em;
@@ -403,7 +411,6 @@ html, body, .container, .main {
 	overflow-x: hidden;
 	height: 40em;
 	width: 100%;
-	margin-top: 36.9em;
 	background-color: $gray-style;
 	padding: 1em;
 	
