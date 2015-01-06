@@ -25,14 +25,16 @@ $eggwhite: #FFFFE0;
 
 /* universal */
 
-html {
+/*html {
  overflow-y: scroll; 
- overflow-x: hidden;
-}
+ overflow-x/: hidden;
+}*/
 
 body {
    /* padding-top: 60px; */
   width: 100%; 
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 ul {
@@ -424,7 +426,7 @@ input label {
     
     .subtitle {
       margin-right: 29.5em;
-      margin-top: 4em;
+      margin-top: 7.5em;
     }
     
     .col-md-12 {
@@ -677,6 +679,12 @@ input label {
       margin-top: 4em;
     }
   }
+  
+  .performance-column {
+    margin-top: 5em;
+  }
+  
+  
   
   /* About */
   
