@@ -1,0 +1,100 @@
+
+
+
+$gray-medium-light: #eaeaea;
+$graydark: #141414;
+$dark-blue: #428bca;
+$light-blue: #0CE3E8;
+$pink: #FC1068;
+$purple: #1F0441;
+$yellow: #F9CE07;
+$gray-style: #4A4A4A;
+
+@media only screen and (max-device-width: 480px) {
+		.cbp-contentslider {
+    margin-top: 5em;
+	width: 70em;
+	height: 40em;
+	position: relative;
+	margin-left: 8%;
+	z-index: 10;
+}
+
+
+	.cbp-contentslider nav a { padding: 0;
+		                       height: 4em;
+	
+	}
+	.cbp-contentslider h3[class^="icon-"]:before, 
+	
+
+.container-instruments-background {
+	margin-top: 6em;
+	
+}
+
+.instruments-grid1 {
+	height: 37em;
+}
+
+.instruments-bottom-right {
+	div {
+		padding-top: 5.5em;
+		padding-left: 3.5em;
+	}
+}
+
+.instruments-bottom-left {
+	div {
+		padding-top: 3em;
+	}
+}
+
+.instruments-wilson-center {
+	width: 105%;
+}
+
+.effect-dexter  {
+	img {
+		width: 110%;
+	}
+.effect-julia {
+	width: 110%;
+img {
+        width: 110%;
+        }
+}
+}
+
+.subtitle {
+	width: 20em;
+}
+
+.logistics {
+	display: none;
+}
+
+.recruitment {
+	display: none;
+}
+
+.members {
+	left: 10em;
+}
+
+.song-list {
+	left: 10em;
+}
+
+.performance-randalllab {
+	height: 50em;
+}
+
+.container-about {
+	margin-right: 10em;
+	h2 {
+		margin-left: 7em;
+	}
+}
+
+}

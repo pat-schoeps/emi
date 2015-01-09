@@ -102,6 +102,7 @@ html, body, .container, .main {
 
   position: absolute;
   width: 50%;
+  height: 50%;
   margin-left: 50%;
   background-color: $gray-style;
   opacity: 1;
@@ -148,6 +149,7 @@ html, body, .container, .main {
 .instruments-bottom-left {
 	position: absolute;
   width: 50%;
+  height: 50%;
   background-color: $graydark;
   opacity: 1;
   overflow-y: hidden;
@@ -288,7 +290,7 @@ html, body, .container, .main {
 }
 
 .cbp-contentslider nav a:hover {
-	background-color: $gray;		/* background-color: $gray; */
+	background-color: $gray;		
 	color: #fff;
 }
 
@@ -452,7 +454,7 @@ html, body, .container, .main {
 	}
 
 	.cbp-contentslider nav a span {
-		display: none;
+		/*display: none; */
 	}
 }
 
