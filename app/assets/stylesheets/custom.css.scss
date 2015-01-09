@@ -260,13 +260,16 @@ footer {
 
 /* Contact page */
 
+.container-contact {
+  height: 60em;
+}
+
 .image-header {
   min-width: 100%;
   margin-left: -1.1em;
 }
 
 .contact-main {
-  height: 70em;
   width: 60em;
   margin-left: 20%;
   
@@ -516,7 +519,6 @@ input label {
     
     h2 {
       color: $gray-style;
-      margin-top: 2em;
      
     }
     
@@ -549,7 +551,7 @@ input label {
     
     .members {
       padding: .5em;
-      margin-top: -13.35em;
+      margin-top: -13.5em;
       margin-left: 28em;
     }
     
@@ -618,7 +620,7 @@ input label {
     
     .members {
       padding: .5em;
-      margin-top: -11.75em;
+      margin-top: -12em;
       margin-left: 28em;
     }
     
@@ -644,7 +646,7 @@ input label {
     
     h2 {
       color: $gray-style;
-      margin-top: 25%;
+      margin-top: 30%;
     }
     
     .buttons {

@@ -11,6 +11,33 @@ $yellow: #F9CE07;
 $gray-style: #4A4A4A;
 
 @media only screen and (max-device-width: 480px) {
+	
+	body {
+		width: 69em;
+	}
+	
+	.container-instruments {
+		overflow-x: hidden;
+		width: 103%;
+	}
+	
+	.instruments-row {
+		width: 105%;
+	}
+	
+	.container-instruments-background {
+		width: 105%;
+	}
+	
+	.instruments-wilson-center {
+		height: 50%;
+		width: 105%;
+		overflow-x: hidden;
+	    
+	}
+	
+	
+	
 		.cbp-contentslider {
     margin-top: 5em;
 	width: 70em;
@@ -95,6 +122,11 @@ img {
 	h2 {
 		margin-left: 7em;
 	}
+}
+
+.mobile-bandlist {
+	margin-left: 15%;
+	margin-bottom: 40%;
 }
 
 }
