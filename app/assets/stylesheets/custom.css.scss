@@ -31,7 +31,6 @@ $eggwhite: #FFFFE0;
 }*/
 
 body {
-   /* padding-top: 60px; */
   width: 100%; 
   overflow-y: scroll;
   overflow-x: hidden;
@@ -512,6 +511,12 @@ input label {
     height: 40em;
     background-color: $eggwhite;
     overflow: hidden;
+    padding-top: 50px;
+    margin-top: -50px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+    
+    
     
     h1 {
       letter-spacing: .15px;
@@ -572,6 +577,10 @@ input label {
     height: 40em;
     background-color: $eggwhite;
     overflow: hidden;
+    padding-top: 50px;
+    margin-top: -50px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
     
     .performance-rock-col2 {
       margin-top: 1.44em;
@@ -633,12 +642,19 @@ input label {
   }
   }
   
+  
+  
+
   .performance-newgroups {
     position: relative;
     min-width: 100%;
     height: 40em;
     background-color: $eggwhite;
     overflow: hidden;
+    padding-top: 50px;
+    margin-top: -50px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box; 
     
     h1 {
       letter-spacing: .15px;
@@ -662,12 +678,24 @@ input label {
     background-image: image-url("performance/field.jpg");
 }
 
+
+.performance-randalllab:before {
+    display: block;
+    content: "";
+    height: 50px;
+    margin: -50px 0 0;
+}
+
   .performance-randalllab {
     position: relative;
     min-width: 100%;
-    height: 40em;
+    height: 44.5em;
     background-color: $gray-style;
     overflow: hidden;
+   /* padding-top: 50px;
+    margin-top: -50px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box; */
     
     h1 {
       letter-spacing: .15px;
