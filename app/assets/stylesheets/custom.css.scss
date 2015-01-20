@@ -148,8 +148,10 @@ header {
     }
   }
 
-#logo {
+header img {
   float: left;
+  height: 2em;
+  margin-top: -.14em;
   margin-right: 10px;
   font-size: 1.7em;
   color: white;
@@ -505,6 +507,8 @@ input label {
   }
 
 }  
+
+  
   .performance-altrock {
     position: relative;
     min-width: 100%;
@@ -515,7 +519,6 @@ input label {
     margin-top: -50px;
     -webkit-background-clip: content-box;
     background-clip: content-box;
-    
     
     
     h1 {
@@ -568,6 +571,23 @@ input label {
     margin-left: 40%;
   }
     
+  }
+  
+  
+  .grid-altrock {
+    position: absolute;
+    display: block;
+    top: 60%;
+    left: 5%;
+    
+    img {
+      height: 8em;
+      width: 10em;
+    }
+    
+    figure {
+      display: inline-block;
+    }
   }
   
   
@@ -679,12 +699,7 @@ input label {
 }
 
 
-.performance-randalllab:before {
-    display: block;
-    content: "";
-    height: 50px;
-    margin: -50px 0 0;
-}
+
 
   .performance-randalllab {
     position: relative;
@@ -692,10 +707,10 @@ input label {
     height: 44.5em;
     background-color: $gray-style;
     overflow: hidden;
-   /* padding-top: 50px;
+    padding-top: 50px;
     margin-top: -50px;
     -webkit-background-clip: content-box;
-    background-clip: content-box; */
+    background-clip: content-box; 
     
     h1 {
       letter-spacing: .15px;
