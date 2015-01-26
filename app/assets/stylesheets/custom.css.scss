@@ -616,7 +616,7 @@ input label {
     
     h2 {
       color: $gray-style;
-      margin-top: 2em;
+      margin-top: 1em;
      
     }
     
@@ -641,7 +641,7 @@ input label {
       padding-top: .5em;
       padding-left: 1em;
       margin-left: 27.25em;
-      margin-top: -21.3em;
+      margin-top: -22.75em;
       color: white;
       background-color: $gray-style;
       width: 20em;
@@ -649,7 +649,7 @@ input label {
     
     .members {
       padding: .5em;
-      margin-top: -12em;
+      margin-top: -13.2em;
       margin-left: 28em;
     }
     
@@ -676,13 +676,46 @@ input label {
     -webkit-background-clip: content-box;
     background-clip: content-box; 
     
+     .song-list {
+      padding: .5em;
+      margin-top: 8em;
+      margin-left: 7em;
+    }
+    
+    #list-title {
+      font-size: 1.25em;
+      color: $gray-style;
+      margin-left: 2em;
+      margin-bottom: 1em;
+  
+}
+    
+    .logistics {
+      position: absolute;
+      padding-bottom: .5em;
+      padding-top: .5em;
+      padding-left: 1em;
+      margin-left: 27.25em;
+      margin-top: -18.5em;
+      color: white;
+      background-color: $gray-style;
+      width: 20em;
+    }
+    
+    .members {
+      padding: .5em;
+      margin-top: -10.5em;
+      margin-left: 28em;
+    }
+    
+    
     h1 {
       letter-spacing: .15px;
     }
     
     h2 {
       color: $gray-style;
-      margin-top: 30%;
+      margin-top: 1em;
     }
     
     .buttons {
