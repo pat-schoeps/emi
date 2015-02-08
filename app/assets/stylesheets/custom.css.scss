@@ -220,7 +220,7 @@ footer {
     }
     
     #jumbotron-title {
-      font-size: 4em;
+      font-size: 5em;
     }
     .title-paragraph {
       font-size: 1.5em;
@@ -229,11 +229,11 @@ footer {
     }
 
     #bottom-title {
-      margin-top: 8em;
+      margin-top: 6em;
     }
 
     .home-page-title {
-      margin-top: 5em;
+      margin-top: 6em;
     }
 
 
@@ -294,7 +294,6 @@ footer {
   }
 
 /* miscellaneous */
-
 .userbox {
   margin-top: 5em;
 }
@@ -320,6 +319,7 @@ aside {
     &:first-child {
       border: 0;
       padding-top: 0;
+      margin-left: 3.5em;
     }
     span {
       display: block;
@@ -335,7 +335,7 @@ aside {
       color: $gray-style;
     }
     h2 {
-      font-size: 1em;
+      font-size: 1.5em;
       text-align: left;
       color: $gray-style;
       margin-top: .75em;
@@ -344,8 +344,8 @@ aside {
 }
 
 .gravatar {
-  float: left;
-  margin-right: 10px;
+  margin-left: 20em;
+  padding: 1em;
 }
 
 .gravatar_edit {
@@ -771,7 +771,7 @@ input label {
     height: 50em;
     h2 {
       color: $gray-style;
-      margin-right: 13.4em;
+      margin-right: 21.7em;
     }
     
     .align {
