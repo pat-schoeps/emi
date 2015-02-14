@@ -18,4 +18,6 @@ class StaticPagesController < ApplicationController
   def experimental
   end
   
+  def events
+  end
 end

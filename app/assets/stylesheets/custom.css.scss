@@ -34,6 +34,13 @@ body {
   width: 100%; 
   overflow-y: scroll;
   overflow-x: hidden;
+  max-width: 1500px;
+  margin: auto;
+}
+
+header {
+  max-width: 1500px;
+  margin: auto;
 }
 
 ul {
@@ -715,7 +722,7 @@ input label {
     
     h2 {
       color: $gray-style;
-      margin-top: 1em;
+      margin-top: .2em;
     }
     
     .buttons {
@@ -785,3 +792,34 @@ input label {
     }
   }
 
+.container-events {
+  margin-top: 3em;
+  height: 50em;
+  
+  h2 {
+    color: $gray-style;
+    float: left;
+  }
+  
+  p {
+    float: left;
+    padding-bottom: 3em;
+  }
+  
+  .align {
+    width: 60em;
+    margin-top: 3em;
+    margin-left: 20%;
+    
+    table {
+      margin: auto;
+    }
+    
+    td {
+      padding-right: 1em;
+      padding-top: 2em;
+    }
+  
+  
+    }
+}
