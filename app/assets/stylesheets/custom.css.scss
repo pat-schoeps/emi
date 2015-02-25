@@ -211,7 +211,8 @@ footer {
 
     height: 37em;
     width: 100%;
-    background-image: url('http://i.stack.imgur.com/jGlzr.png');
+  /*  background-image: url('http://i.stack.imgur.com/jGlzr.png'); */
+    background-image: image-url("performance/Altrock/coverphoto.jpg");
     background-size: cover;
     background-size: 100% 100%;
     background-repeat: repeat-x;
@@ -236,12 +237,16 @@ footer {
     }
 
     #bottom-title {
-      margin-top: 6em;
+      margin-top: 8.5em;
     }
 
     .home-page-title {
-      margin-top: 6em;
+      margin-top: 3.6em;
+      float: left;
+      background-color: $gray-style;
+      width: 40em;
     }
+    
 
 
 
