@@ -20,12 +20,15 @@ $pink: #FC1068;
 $purple: #1F0441;
 $yellow: #F9CE07;
 $gray-style: #4A4A4A;
+$eggwhite: #FFFFE0;
 
 /* Needed for a fluid height: */
 html, body, .container, .main { 
 	height: 100%;
+}
 
-
+html {
+	background-color: white;
 }
 
 .container-instruments {
