@@ -13,6 +13,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass', '3.2.0'
 gem 'sprockets'
 gem 'rails-html-sanitizer', '1.0.1'
+gem 'newrelic_rpm'
 
 
 
