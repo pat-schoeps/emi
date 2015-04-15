@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get 'performance'     => 'static_pages#performance'
   get 'about'           => 'static_pages#about'
   get 'contact'         => 'static_pages#contact'
-  get 'experimental'    => 'static_pages#experimental'
+  get 'content'         => 'static_pages#content'
   get 'events'          => 'static_pages#events'
   get 'signup'          => 'users#new'
   resources :users

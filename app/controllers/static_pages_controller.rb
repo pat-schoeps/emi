@@ -15,7 +15,7 @@ class StaticPagesController < ApplicationController
   def contact
   end
   
-  def experimental
+  def content
   end
   
   def events
