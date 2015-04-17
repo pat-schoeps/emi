@@ -879,17 +879,17 @@ input label {
   }
   
   .video {
-    position: relative;
+    position: absolute;
     width: 50%;
     height: 100%;
     float: left;
   }
   
   .description {
-    position: relative;
+    position: absolute;
     width: 50%;
     height: 25em;
-    float: left;
+    left: 50%;
     border: 3px solid $gray-style;
     padding: 1.3em;
     
