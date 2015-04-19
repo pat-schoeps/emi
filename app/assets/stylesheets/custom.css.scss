@@ -952,3 +952,32 @@ input label {
     }
   }
 }
+
+.endofyear {
+  position: absolute;
+  display: block;
+  padding: 1em;
+  height: 20em;
+  width: 40em;
+  text-decoration: none;
+  top: 3.5em;
+  right: 0em;
+  background-color: $gray-style;
+  
+  h1 {
+    color: white;
+    font-size: 1.75em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  ul {
+    margin: auto;
+  }
+  
+  li {
+    color: white;
+  }
+}
