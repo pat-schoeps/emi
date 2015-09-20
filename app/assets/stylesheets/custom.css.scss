@@ -863,7 +863,12 @@ input label {
       padding-right: 2em;
       padding-top: 2em;
     }
-  
+    
+    tr {
+      th {
+      padding: .5em;
+    }
+    }
   
     }
 }
